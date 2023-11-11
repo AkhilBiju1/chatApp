@@ -1,0 +1,115 @@
+div.login{
+    height:  100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+div.login div.center{
+    
+   
+    width: 25vw;
+   
+    --border-size: 3px;
+  --border-angle: 0turn;
+  width: 60vmin;
+  height: 50vmin;
+  background-image: conic-gradient(
+      from var(--border-angle),
+      rgb(35, 35, 35),
+      rgb(35, 35, 35) 50% ,
+      rgb(35, 35, 35)
+    ),
+    conic-gradient(from var(--border-angle), transparent 0%, rgb(40, 111, 156), rgb(40, 111, 156));
+  background-size: calc(100% - (var(--border-size) * 2))
+      calc(100% - (var(--border-size) * 2)),
+    cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  animation: bg-spin 5s linear infinite;
+
+    height: 40vh;
+}
+  @keyframes bg-spin {
+    to {
+      --border-angle: 1turn;
+    }
+  }
+
+  &:hover {
+    animation-play-state: paused;
+  }
+
+
+@property --border-angle {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0turn;
+}
+div.login div.center form {
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div.login div.center form div{
+  width: 100%;
+
+}
+div.login div.center form:first-child{
+    margin-top: 10px;
+}
+div.login div.center form input{
+    margin-top: 25px;
+    width: 17vw;
+    height: 3vh;
+    border: none;
+    border-bottom: 2px solid rgb(40, 111, 156);
+    outline: none;
+    color: #c9c9c9;
+    background: none;
+}
+
+div.login div.center form div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 17vw;
+
+}
+div.login div.center form div button{
+    background:none;
+    width: 75px;
+    height: 30px;
+    color: #c9c9c9;
+    border:2px solid rgb(67, 67, 67);
+    border-radius: 5px;
+}
+div.login div.center form div button:hover{
+border:2px solid rgb(40, 111, 156);
+color: rgb(40, 111, 156);
+}
+div.login div.center form div button a{
+
+color: #c9c9c9;
+text-decoration: none;
+}
+div.login div.center form div button a:hover{
+  color: rgb(40, 111, 156);
+}
+div.login div.center form div.span span{
+  font-size: 12px;
+  
+}
+div.login div.center form div.span span input{
+  width: 1.5vh;
+  height: 1.5vh;
+
+}
+div.login div.center form div.label {
+  height: 20px;
+
+}

@@ -1,0 +1,132 @@
+div.chatSection{
+    width: 68vw;
+        height: 99vh;
+}
+div.chatSection div.line{
+    height: 10vh;
+    border-left: #121111;
+}
+div.chatSection .top{
+    margin-left: 10px;
+        height: 8vh;
+        padding-top: 2vh;
+        
+
+    
+       
+       
+}
+div.chatSection .top h4{
+   font-size: 20px;
+   margin: 0;
+   
+}
+div.chatSection .top span{
+    font-weight: 15px;
+    margin: 0;
+    color: rgba(220, 220, 220, 0.575);
+    
+    
+
+}
+div.chatSection .mid{
+    background-color: #262626;
+    height: 81vh;
+    overflow-y: scroll;
+    
+    
+}
+div.chatSection .bottom{
+    position: fixed;
+    top: 91vh;
+   background: #2d2d2d;
+    height: 8vh;
+    width: 68vw;
+    z-index: 3;
+   
+}
+div.chatSection .bottom div{
+   margin-left:20px;
+   margin-right: 10px; 
+    
+    height: 100%;
+    flex: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+
+div.chatSection .bottom div input{
+ margin:  auto 0;
+  width: 65vw;
+  background: none;
+  color: rgb(207, 207, 207);
+  font-size: 18px;
+  border: none;
+  height: 40px;
+  outline: none;
+
+}
+div.chatSection .bottom div button{
+    background:none;
+
+    border: none;
+}
+div.chatSection .bottom div button img{
+    opacity: 50%;
+    width: 30px;
+    
+}
+div.chatSection .bottom div button img:hover{
+ opacity: 100%;
+}
+div.chat{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+div.chat div.left{
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+background: rgb(54, 57, 62);
+width: 45%;
+height: auto;
+padding-left: 5px;
+margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.selectchatmsg{
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    font-weight: lighter;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+div.chat div.right{
+    border-radius: 15px;
+        border-bottom-right-radius: 0;
+    padding-left: 5px;
+    margin-top: 10px;
+    background: rgb(40, 59, 81);
+    width: 45%;
+    height: auto;
+    align-self: end;
+    margin-bottom: 10px;
+}
+div.chatSection  div.mid div.chat div.dummy{
+    align-self: end;
+    margin-top: 30px ;
+}
+div.chat div p{
+    font-size: 15px;
+
+}
+div.chat div span{
+    font-size: 11px;
+    margin-left: 4px;
+}

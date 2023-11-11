@@ -1,0 +1,58 @@
+.sidbar{
+    width: 20vw;
+    height: 98vh;
+    position: fixed;
+    z-index: 1;
+background: rgb(20, 20, 20);
+
+
+
+
+}
+div.hide{
+    display: none;
+}
+.sidbar button.close {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #8f8f8f;
+    position: fixed;
+    top: 10px;
+    left: 18vw;
+}
+.sidbar button.close:hover{
+    color: white;
+}
+.sidbar img
+{
+    display: flex;
+    position: fixed;
+    width: 40px;
+    top: 10vh;
+    left: 20px;
+    border-radius: 50%;
+    height: 40px;
+
+
+}
+.sidbar h2{
+    position: fixed;
+    top: 14vh;
+    left: 20px;
+    font-size: 15px;
+}
+
+.sidbar button.logout  {
+    color: rgb(205, 27, 27);
+    background: none;
+    border: none;
+    font-size: 18px;
+    position: fixed;
+    bottom: 40px;
+    left: 20px;
+    
+}
+.sidbar button.logout:hover{
+    color: #b31515;
+}
